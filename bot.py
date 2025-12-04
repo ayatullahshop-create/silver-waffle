@@ -35,5 +35,6 @@ def unlock_group(message):
         return bot.reply_to(message, "You are not authorized.")
     bot.send_message(message.chat.id, "Group unlocked (demo).")
 
-print("Bot is running...")
-bot.infinity_polling()
+if __name__ == "__main__":
+    print("Bot is running...")
+    bot.infinity_polling()
