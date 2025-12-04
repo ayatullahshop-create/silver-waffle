@@ -1,1 +1,1 @@
-WinzerEscrowBot
+@WinzerEscrowBot
