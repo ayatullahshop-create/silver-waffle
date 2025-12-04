@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "python web_server.py",
+  "installCommand": "pip install -r requirements.txt"
+}
