@@ -1,8 +1,8 @@
 import telebot
 from telebot.types import ChatPermissions
-from config import BOT_TOKEN, ADMIN_ID
+from config import BOT_TOKEN 8182617462:AAFOGtZuYePGDQMpHJyt3nObTct9BgTXEVk, ADMIN_ID 7779433887
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot (8182617462:AAFOGtZuYePGDQMpHJyt3nObTct9BgTXEVk)
 
 @bot.message_handler(commands=['start'])
 def start(message):
